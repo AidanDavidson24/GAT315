@@ -632,6 +632,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   force: {x: 0, y: 200, z: 200}
   forceMode: 0
-  torque: {x: 0, y: 200, z: 0}
+  torque: {x: 0, y: 1e+9, z: 0}
   torqueMode: 0
   isRelative: 1

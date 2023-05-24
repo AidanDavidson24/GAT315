@@ -60,8 +60,8 @@ public class RigidbodyCharacter : MonoBehaviour
 		}
 		else
 		{
-			rb.AddForce(direction * speed, ForceMode.Force);
-			rb.AddTorque(rotate * turnRate);
-		}
+            rb.AddForce(direction * speed, ForceMode.Force);
+            rb.AddTorque(rotate * turnRate);
+        }
 	}
 }
